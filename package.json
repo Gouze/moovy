@@ -3,13 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-react": "^1.6.0",
+    "@chakra-ui/icons": "^1.0.14",
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "11",
+    "@emotion/styled": "11",
+    "@fontsource/sora": "^4.5.0",
+    "@fontsource/work-sans": "^4.5.0",
+    "@react-firebase/auth": "^0.2.10",
+    "@react-firebase/firestore": "^0.5.5",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@vime/core": "^5.0.33",
+    "@vime/react": "^5.0.33",
+    "axios": "^0.21.1",
+    "firebase": "^8.7.1",
+    "formik": "^2.2.9",
+    "framer-motion": "4",
+    "human-readable-ids": "^1.0.4",
+    "lodash": "^4.17.21",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-youtube-background": "^1.0.0",
+    "swiper": "^6.7.5",
+    "web-vitals": "^1.0.1",
+    "webtorrent": "^1.3.3",
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +57,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.36",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4"
   }
 }
